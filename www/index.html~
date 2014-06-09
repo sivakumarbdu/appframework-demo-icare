@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+    <head>
+
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>       
+<meta name="apple-mobile-web-app-capable" content="yes" />
+        
+         <link href="css/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="css/af.ui.css" />
+       
+       
+
+ <script type="text/javascript" charset="utf-8" src="js/appframework.ui.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jq.mvc.min.js"></script>
+   <script type="text/javascript" charset="utf-8" src="app.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jq.template.js"></script>   
+</head>
+   <body>
+            <div id="afui">
+                <div id="content">
+                <!-- Home view -->
+
+                <header id="homeHeader"> 
+                    <h1> <span style="color:red" >iHealthCare </span></h1>
+                </header>
+	                <div id="main" class="panel" selected="true"   data-header="homeHeader">
+	                     <a href="/hello/world">Add</a>
+                         <table width="100%">
+                         <tr>
+                         <td><a href="/hospitals/list"> <i class="fa fa fa-h-square fa-4x"></i> </a> </td>
+                         <td>
+                         <a href="/doctors/list">
+                          <i  class="fa fa fa-user-md fa-4x"></i>
+                          </a></td>
+                         <td> <a href="/services/list"> <i class="fa fa fa-ambulance fa-4x"></i>  
+                         </a> </td>
+                         </tr>
+
+                         </table>
+	                </div>
+                 </div>           
+            </div>
+</body>
+</html>

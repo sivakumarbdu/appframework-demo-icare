@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+	<head>
+	
+		<link rel="stylesheet" type="text/css" href="app_framework/2.1/css/af.ui.min.css">
+		<link rel="stylesheet" type="text/css" href="app_framework/2.1/css/icons.min.css">
+		<meta charset="UTF-8">
+		 
+		<title>Your New Application</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+
+		<style type="text/css">
+		a { color: inherit; }
+			.space {
+			                margin-right: 32px;
+			            }
+            .items {
+                 cursor: pointer;
+            }
+						/* Prevent copy paste for all elements except text fields */
+						*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+						input, textarea  { -webkit-user-select:text; }
+		</style>
+		 
+		<script type="application/javascript" src="app_framework/2.1/appframework.js"></script>
+		<script type="application/javascript" src="app_framework/2.1/appframework.ui.js" data-ver="1"></script>
+ 
+		
+		<link href="css/lib/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		 <script type="text/javascript" charset="utf-8" src="js/jq.mvc.min.js"></script>
+
+		<script type="text/javascript" charset="utf-8" src="js/jq.template.js"></script>  
+		</script>
+	 
+		 <script type="text/javascript" charset="utf-8" src="app.js"></script>  
+		</script>
+	 
+	</head>
+
+	<body id="afui">
+
+		<!-- content goes here-->
+		<div class="uwrap" id="content">
+			<div class="upage panel" id="mainpage" data-header="af-header-0" data-footer="none">
+				<div class="upage-outer" id="main">
+					<header class="container-group inner-element uib_w_2" data-uib="app_framework/header" data-ver="1" id="af-header-0">
+					 <div class="widget-container content-area horiz-area wrapping-col left with-back"><a class="button" id="backButton" href="/hello">Back</a> </div>
+						<h1><span class="title">iHealthCare </span> </h1>
+						 </header>
+						 
+						   <table width="100%">
+                         <tr>
+                         <td><a href="/hospitals/list"> <i class="fa fa fa-h-square fa-4x"></i> </a> </td>
+                         <td>
+                         <a href="/doctors/list">
+                          <i  class="fa fa fa-user-md fa-4x"></i>
+                          </a></td>
+                         <td> <a href="/services/list"> <i class="fa fa fa-ambulance fa-4x"></i>  
+                         </a> </td>
+                         </tr>
+                         </table>
+					 
+					 	 
+				</div>
+				<!-- /upage-outer -->
+
+			</div>
+			<!-- /upage -->
+
+		</div>
+		<!-- /uwrap -->
+	 
+	</body>
+
+</html>
